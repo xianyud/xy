@@ -26,3 +26,7 @@ function zhihu() {
 function lianshu() {
     window.open('http://www.lianpula.cc/facebook/guanwang.htm')
 }
+function sxx() {
+    location.reload([true])
+}
+

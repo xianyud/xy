@@ -51,11 +51,16 @@ body{
 }
 .ssn{
     position: fixed;
-    bottom: 100px;
+    bottom: 200px;
+    right: 50px;
+}
+.sxx{
+    position: fixed;
+    bottom: 130px;
     right: 50px;
 }
 .xsn{
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 50px;
 }
