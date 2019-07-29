@@ -14,3 +14,34 @@
     font-size: 40px;
     color: #7189bf;
 }
+.yy{
+    text-align: center;
+    color: #385170;
+    font-size: 40px;
+}
+.musictb{
+    text-align: center;
+}
+.music{
+    text-align: center;
+    margin: 0 auto;
+}
+.juz{
+    text-align: center;
+}
+.musiclj{
+    font-size: 30px;
+    color: #257aa6;
+    text-decoration: none;
+}
+.musiclj:hover{
+    background: #444444;
+    color: #eaeaea;
+    transition-delay: 50ms;
+    transition-duration: 500ms;
+}
+.sp{
+    text-align: center;
+    font-size: 40px;
+    color: #183661;
+}
