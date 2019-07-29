@@ -17,3 +17,11 @@
 .tupian{
     text-align: center;
 }
+.dibukj{
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    font-size: 20px;
+    background: rgba(108,123,149,0.3);
+    color: #0b032d;
+}
