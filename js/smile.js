@@ -20,3 +20,9 @@ function tp() {
 function youtuber() {
     window.open('https://www.youtube.com/')
 }
+function zhihu() {
+    window.open('https://www.zhihu.com/signup?next=%2F')
+}
+function lianshu() {
+    window.open('http://www.lianpula.cc/facebook/guanwang.htm')
+}
