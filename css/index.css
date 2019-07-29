@@ -1,0 +1,61 @@
+body{
+    background: #deecff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    background: rgba(40,49,72,0.5);
+}
+#dhl {
+    text-align: center;
+}
+#dhl a{
+    list-style-type: none;
+    font-size: 40px;
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 20px;
+}
+#dhl li{
+    display: inline-block;
+}
+#dhl li:hover{
+    background:#33313b;
+    transition-duration: 200ms;
+}
+.bt{
+    text-align: center;
+    font-size: 50px;
+    color: #293462;
+}
+.xhx{
+    width: 500px;
+    margin: 0 auto;
+    border-bottom:#6c7b95 solid 5px;
+}
+.tb{
+    text-align: center;
+}
+.an{
+    background: none;
+    border: none;
+}
+.an:hover{
+    background:rgba(100,149,237,0.5);
+    transition-delay: 50ms;
+    transition-duration: 200ms;
+}
+.ssn{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+.xsn{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
