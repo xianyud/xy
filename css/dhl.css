@@ -37,10 +37,10 @@ h2 {
 /*控制侧边栏进出的按钮（内部文字样式）*/
 label {
     /*控制侧边栏进出的按钮*/
-    background:#313131;
+    background:#63707e;
     position: fixed;
     border-radius: 70px;
-    color: #6b778d;
+    color: #f2f6f5;
     cursor: pointer;
     display: block;
     font-family: Courier New;
@@ -52,9 +52,9 @@ label {
     display: inline-block;
 }
 label:hover {
-    background: #525252;
-    color: #e6f8f9;
-    transition-duration: 100ms;
+    background: #95adbe;
+    color: #63707e;
+    transition-duration: 300ms;
 }
 #sideul li {
     list-style: none;
