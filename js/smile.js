@@ -29,4 +29,10 @@ function lianshu() {
 function sxx() {
     location.reload([true])
 }
+function zhuce() {
+    alert('注册功能未开放:(')
+}
+function login1() {
+    window.open("net/login/login.html")
+}
 

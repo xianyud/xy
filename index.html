@@ -10,9 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/Login.css">
     <link rel="stylesheet" type="text/css" href="css/img.css">
     <script src="js/smile.js"></script>
-
 </head>
 <body>
+
+
+
 <input type='checkbox' id='sidemenu'>
 <aside>
     <h2>菜单</h2>
@@ -68,8 +70,8 @@
     <button class="an" onclick="smile()"><svg t="1564360924868" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32122" width="48" height="48"><path d="M336 421m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" p-id="32123" fill="#484848"></path><path d="M688 421m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" p-id="32124" fill="#484848"></path><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2-44.3-18.7-84.1-45.6-118.3-79.8-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8c18.7-44.3 45.6-84.1 79.8-118.3 34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2 44.3 18.7 84.1 45.6 118.3 79.8 34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8c-18.7 44.3-45.6 84.1-79.8 118.2z" p-id="32125" fill="#484848"></path><path d="M664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-0.3-4.2-3.9-7.4-8.1-7.4H360c-4.6 0-8.2 3.8-8 8.4 4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6c0.2-4.6-3.4-8.4-8-8.4z" p-id="32126" fill="#484848"></path></svg></button>
 </div><br>
 <div id="login">
-    <button class="dlanniu">登录</button>
-    <button class="zcanniu">注册</button>
+    <button class="dlanniu" onclick="login1()">登录</button>
+    <button class="zcanniu" onclick="zhuce()">注册</button>
 </div><br>
 <div class="xhx"></div>
 
@@ -156,6 +158,8 @@
     <svg t="1564367357207" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="34751" width="200" height="200"><path d="M512 128c-212.1 0-384 171.9-384 384v360c0 13.3 10.7 24 24 24h184c35.3 0 64-28.7 64-64V624c0-35.3-28.7-64-64-64H200v-48c0-172.3 139.7-312 312-312s312 139.7 312 312v48H688c-35.3 0-64 28.7-64 64v208c0 35.3 28.7 64 64 64h184c13.3 0 24-10.7 24-24V512c0-212.1-171.9-384-384-384zM328 632v192H200V632h128z m496 192H696V632h128v192z" p-id="34752" fill="#d81e06"></path></svg>
 </div>
 <p class="yy">已有歌曲</p>
+<p class="juz"><a href="#Me Myself & I (Lux Holm & Rivo Remix)" class="musiclj">Me Myself & I (Lux Holm & Rivo Remix)</a></p>
+<p class="juz"><a href="#What We Got" class="musiclj">What We Got</a></p>
 <p class="juz"><a href="#Hislerim" class="musiclj">Hislerim</a></p>
 <p class="juz"><a href="#Apollo 69" class="musiclj">Apollo 69</a></p>
 <p class="juz"><a href="#Savage (Leowi Remix)" class="musiclj">Savage (Leowi Remix)</a></p>
@@ -166,8 +170,16 @@
 <p class="juz"><a href="#Summer Wine" class="musiclj">Summer Wine</a></p>
 <p class="juz"><a href="#Bitch don't touch my phone" class="musiclj">Bitch don't touch my phone</a></p>
 <p class="juz"><a href="#Uncover (Afterfab Remix)" class="musiclj">Uncover (Afterfab Remix)</a></p>
+<p class="juz"><a href="#Right Away" class="musiclj">Right Away</a></p>
+
 
 <p class="yy">歌曲外链</p>
+<div class="music" id="Me Myself & I (Lux Holm & Rivo Remix)">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=479028045&auto=0&height=66"></iframe>
+</div>
+<div class="music" id="What We Got">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=509512619&auto=0&height=66"></iframe>
+</div>
 <div class="music" id="Hislerim">
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=1303026288&auto=0&height=66"></iframe>
 </div>
@@ -198,6 +210,10 @@
 <div class="music" id="Uncover (Afterfab Remix)">
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=429261825&auto=0&height=66"></iframe>
 </div>
+<div class="music" id="Right Away">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=435552611&auto=0&height=66"></iframe>
+</div>
+
 <br>
 <hr/>
 <!--<p class="sp" >视频</p>-->
