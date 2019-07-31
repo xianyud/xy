@@ -28,8 +28,9 @@ body{
 /*    transition-duration: 200ms;*/
 /*}*/
 .bt{
+    margin-top: auto;
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     color: #293462;
 }
 .xhx{
@@ -46,17 +47,16 @@ body{
 }
 .an:hover{
     background:rgba(100,149,237,0.5);
-    transition-delay: 50ms;
     transition-duration: 200ms;
 }
 .ssn{
     position: fixed;
-    bottom: 200px;
+    bottom: 130px;
     right: 50px;
 }
 .sxx{
     position: fixed;
-    bottom: 130px;
+    bottom: 200px;
     right: 50px;
 }
 .xsn{

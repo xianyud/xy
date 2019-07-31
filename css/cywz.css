@@ -1,7 +1,7 @@
 .cywamgzhan{
     text-align: center;
     font-size: 40px;
-    color:#313131;
+    color:#263859;
 }
 .dibu{
     text-align: center;
@@ -35,10 +35,9 @@
     text-decoration: none;
 }
 .musiclj:hover{
-    background: #444444;
-    color: #eaeaea;
-    transition-delay: 50ms;
-    transition-duration: 500ms;
+    background: #455d7a;
+    color: #f7f9ff;
+    transition-duration: 200ms;
 }
 .sp{
     text-align: center;
@@ -52,9 +51,8 @@
     text-decoration: none;
 }
 .spbt:hover{
-    background: #222222;
-    color: #cccccc;
-    transition-delay: 50ms;
+    background: #455d7a;
+    color: #f7f9ff;
     transition-duration: 200ms;
 }
 .spw{

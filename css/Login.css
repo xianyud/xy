@@ -1,0 +1,33 @@
+.dlanniu{
+    width: 100px;
+    height: 50px;
+    /*background:rgba(105,105,105,0.3);*/
+    border: #33313b solid 1px;
+    background: rgba(92,120,147,0.3);
+    font-size: 30px;
+    color: #33313b;
+}
+.dlanniu:hover{
+    background: rgba(92,120,147,0.9);
+    color:#faf9f9 ;
+    /*border-color: #faf9f9;*/
+    transition-duration: 200ms;
+}
+.zcanniu{
+    width: 100px;
+    height: 50px;
+    /*background:rgba(105,105,105,0.3);*/
+    border: #33313b solid 1px;
+    background: rgba(92,120,147,0.3);
+    font-size: 30px;
+    color: #33313b;
+}
+.zcanniu:hover{
+    background: rgba(92,120,147,0.9);
+    color:#faf9f9 ;
+    /*border-color: #faf9f9;*/
+    transition-duration: 200ms;
+}
+#login{
+    text-align: center;
+}

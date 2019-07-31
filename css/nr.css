@@ -18,10 +18,12 @@
     text-align: center;
 }
 .dibukj{
+    border: none;
     text-align: center;
     margin: 0 auto;
     bottom: 0;
     font-size: 20px;
-    background: rgba(108,123,149,0.3);
-    color: #0b032d;
+    /*background: rgba(54,54,54,0.3);*/
+    background: #455d7a;
+    color: #ecfcff;
 }
