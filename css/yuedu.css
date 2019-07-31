@@ -1,0 +1,29 @@
+.yuedu{
+    text-align: center;
+}
+.shujia{
+    text-align: center;
+    margin: 0 auto;
+    color: #454d66;
+    width: 400px;
+    /*height: 200px;*/
+    font-size: 30px;
+    background: rgba(255,255,255,0.2);
+    border:#454d66  solid 1px;
+}
+.shujia:hover{
+    color: #ff8260;
+    border-color:#6384b3;
+    background: rgba(255,255,255,0.5);
+    transition-duration: 200ms;
+
+}
+.shujiashu{
+    color: #6384b3;
+}
+.shujiashu:hover{
+    color: #f6f6f6;
+    background: #7189bf;
+    transition-duration: 200ms;
+    text-decoration: none;
+}
