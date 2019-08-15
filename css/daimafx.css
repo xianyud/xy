@@ -3,13 +3,12 @@
     width: 400px;
     font-size: 20px;
     border: 1px solid #042f4b;
-    background: #ecfcff;
+    background: rgba(245,245,245,0.5);
     color: #042f4b;
 }
 .daimafx:hover{
     border-color: #252525;
-    background: #dadada;
-    color: #204969;
-    transition-duration: 200ms;
-
+    background: rgba(245,245,245,0.7);
+    color: #252525;
+    transition-duration: 300ms;
 }
