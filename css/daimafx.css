@@ -1,0 +1,15 @@
+.daimafx{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #042f4b;
+    background: #ecfcff;
+    color: #042f4b;
+}
+.daimafx:hover{
+    border-color: #252525;
+    background: #dadada;
+    color: #204969;
+    transition-duration: 200ms;
+
+}
