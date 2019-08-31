@@ -5,5 +5,5 @@ function zzheshouye() {
     window.open('https://space.bilibili.com/173972934')
 }
 function huidao() {
-    window.open('index.html')
+    window.open('../index.html')
 }
