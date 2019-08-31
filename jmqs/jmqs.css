@@ -1,0 +1,77 @@
+body{
+    animation:bj 20s infinite;
+    height: 100%;
+    width: 100%;
+}
+@keyframes bj {
+    from{
+        background: #d4d7dd;
+    }
+    70%{
+        background: #a9c6de;
+    }
+    to{
+        background: #d4d7dd;
+    }
+}
+.sp{
+    margin-top: 10%;
+    text-align: center;
+    top: 50%;
+}
+.wz{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.wz1{
+    margin: 0 auto;
+    width: 150px;
+    color: #6c7b95;
+}
+.wz1:hover{
+    animation:dhxg1 2s infinite;
+}
+.wz2{
+    margin: 0 auto;
+    width: 200px;
+    color: #ec8f6a;
+}
+.wz2:hover{
+    animation:dhxg1 2s infinite;
+}
+.wz3{
+    margin: 0 auto;
+    width: 150px;
+    color: #cba1d2;
+}
+.wz3:hover{
+    animation:dhxg1 2s infinite;
+}
+@keyframes dhxg1 {
+    40%{
+        transform: rotate(360deg);
+    }
+    60%{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+/*设计废案*/
+/*看不见我略略略！！！*/
+/*.wanju{*/
+/*    text-align: center;*/
+/*    color: #62374e;*/
+
+/*}*/
+/*.wanju:hover{*/
+/*    animation:dhxg2 0.5s infinite;*/
+/*}*/
+/*@keyframes dhxg2 {*/
+/*    to{*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
